@@ -3,7 +3,7 @@ import pdf from 'pdf-parse';
 import OpenAI from 'openai';
 import { extractTextFromPdf } from '../utils/pdfUtils.js';
 
-const client = new OpenAI({ apiKey: "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" });
+const client = new OpenAI({ apiKey: "sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" });
 
 export const analyzeResume = async (file) => {
   if (!file) throw new Error('No file uploaded');
